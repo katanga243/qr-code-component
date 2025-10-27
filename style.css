@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Card Container */
+.qr-card {
+  background-color: white;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+/* QR Image */
+.qr-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Text Section */
+.qr-card h1 {
+  font-size: 1.2rem;
+  color: hsl(218, 44%, 22%);
+  margin: 20px 0 10px;
+}
+
+.qr-card p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  margin-top: 10px;
+}
